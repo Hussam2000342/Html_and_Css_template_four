@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatibal" content="IE=edge" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/framworks.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <h3>Elzero</h3>
+        <ul>
+          <li>
+            <a class="active" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gear"></i>
+              <span>Setting</span></a
+            >
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user"></i>
+              <span>profile</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="freinds.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Courses</span></a
+            >
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-circle-user"></i>
+              <span>Friends</span></a
+            >
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-file"></i>
+              <span>Files</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fa-brands fa-unsplash"></i>
+              <span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <!-- Start head -->
+        <div class="head">
+          <div class="search">
+            <input class="input" type="text" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fa-solid fa-bell"></i>
+            </span>
+            <img src="images/avatar-01.webp" alt="" />
+          </div>
+        </div>
+        <!-- End head -->
+        <h1 class="title">Dashboard</h1>
+        <div class="wrapper">
+          <!-- Start welcome wedget -->
+          <div class="welcome">
+            <div class="body">
+              <div class="text">
+                <h2>Welcome</h2>
+                <p>Elzero</p>
+              </div>
+              <img
+                src="images/—Pngtree—people working in a table_7537097.webp"
+                alt=""
+              />
+            </div>
+            <div class="footer">
+              <img src="images/avatar-01.webp" alt="" />
+              <div class="info">
+                <div>Hussam Ahmad <span class="opject">Developer</span></div>
+                <div>80<span class="opject">Projects</span></div>
+                <div>8500$<span class="opject">Earned</span></div>
+              </div>
+              <a href="profile.html" class="btn">Profile</a>
+            </div>
+          </div>
+          <!-- End welcome wedget -->
+          <!-- Start quick draft wedget -->
+          <div class="quick-draft">
+            <div class="info">
+              <h2>Quick Draft</h2>
+              <p>Write A Draft for your ideas</p>
+            </div>
+            <form>
+              <input type="text" placeholder="Title" class="title" />
+              <textarea placeholder="Your Thought" class="title"></textarea>
+              <input type="submit" value="Save" class="btn" />
+            </form>
+          </div>
+          <!-- End quick draft wedget -->
+          <!-- Start target -->
+          <div class="target">
+            <h2>Yearly Targets</h2>
+            <p>Target of the year</p>
+            <div class="progress f-be">
+              <div class="icon money f-cr">
+                <i class="fa-solid fa-dollar-sign money"></i>
+              </div>
+              <div class="target-row">
+                <p>Money</p>
+                <h3>$20.000</h3>
+                <div class="money">
+                  <span style="width: 80%" class="perc-money">
+                    <span>80%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="progress f-be">
+              <div class="icon code f-cr">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="target-row">
+                <p>Projects</p>
+                <h3>25</h3>
+                <div class="code">
+                  <span style="width: 55%" class="perc-code">
+                    <span>55%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="progress f-be">
+              <div class="icon team f-cr">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="target-row">
+                <p>Team</p>
+                <h3>12</h3>
+                <div class="team">
+                  <span style="width: 80%" class="perc-team">
+                    <span>80%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End target -->
+          <!-- Start tickets -->
+          <div class="ticket">
+            <h2>Tickets Statistics</h2>
+            <p>Everything About Support Tickets</p>
+            <div class="details">
+              <div class="box tic">
+                <i class="fa-regular fa-rectangle-list fa-2xl"></i>
+                <h2>2500</h2>
+                <span>Total</span>
+              </div>
+              <div class="box pen">
+                <i class="fa-regular fa-circle-check fa-2xl"></i>
+                <h2>500</h2>
+                <span>Pending</span>
+              </div>
+              <div class="box clos">
+                <i class="fa-solid fa-spinner fa-2xl"></i>
+                <h2>1900</h2>
+                <span>Closed</span>
+              </div>
+              <div class="box del">
+                <i class="fa-regular fa-rectangle-xmark fa-2xl"></i>
+                <h2>100</h2>
+                <span>Deleted</span>
+              </div>
+            </div>
+          </div>
+          <!-- End tickets -->
+          <!-- Start latest news -->
+          <div class="news">
+            <h2>Latest News</h2>
+            <div class="box">
+              <img src="images/face_paint_profile_95073_320x240.webp" alt="" />
+              <div class="text">
+                <h3>Created SASS Section</h3>
+                <p>New Sass Examples & Tutorials</p>
+              </div>
+              <span>3 Days Ago</span>
+            </div>
+            <div class="box">
+              <img
+                src="images/crow_wings_bird_swing_85055_320x240.webp"
+                alt=""
+              />
+              <div class="text">
+                <h3>Changed The Design</h3>
+                <p>A Brand New Website Design</p>
+              </div>
+              <span>5 Days Ago</span>
+            </div>
+            <div class="box">
+              <img src="images/neon_light_circles_83499_320x240.webp" alt="" />
+              <div class="text">
+                <h3>Team Increased</h3>
+                <p>3 Developers joined The Team</p>
+              </div>
+              <span>7 Days Ago</span>
+            </div>
+            <div class="box">
+              <img src="images/paint_water_liquid_85058_320x240.webp" alt="" />
+              <div class="text">
+                <h3>Added payment Gateway</h3>
+                <p>3 Developers joined The Team</p>
+              </div>
+              <span>9 Days Ago</span>
+            </div>
+          </div>
+          <!-- End latest news -->
+          <!-- Start latest tasks -->
+          <div class="tasks">
+            <h2>Latest Taskes</h2>
+            <div class="box">
+              <div class="text">
+                <h3>Record One New Video</h3>
+                <p>Record python Create Exe Project</p>
+              </div>
+              <i class="fa-solid fa-trash-can delete"></i>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>Write Article</h3>
+                <p>Write low level vs hight level languages</p>
+              </div>
+              <i class="fa-solid fa-trash-can delete"></i>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>Finish Project</h3>
+                <p>Puplish Academy Programming Project</p>
+              </div>
+              <i class="fa-solid fa-trash-can delete"></i>
+            </div>
+            <div class="box deleted">
+              <div class="text">
+                <h3>Attend the Metting</h3>
+                <p>attend the project bussnes anayalise meeting</p>
+              </div>
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>Finish Lesson</h3>
+                <p>attend the project bussnes anayalise meeting</p>
+              </div>
+              <i class="fa-solid fa-trash-can delete"></i>
+            </div>
+          </div>
+          <!-- End latest tasks -->
+          <!-- Start search -->
+          <div class="top-search">
+            <h2>Top Search items</h2>
+            <div class="key">
+              <span>keyword</span>
+              <span>Search Count</span>
+            </div>
+            <div class="count">
+              <span>Programming</span>
+              <span>220</span>
+            </div>
+            <div class="count">
+              <span>JavaScript</span>
+              <span>180</span>
+            </div>
+            <div class="count">
+              <span>PHP</span>
+              <span>160 </span>
+            </div>
+            <div class="count">
+              <span>Code</span>
+              <span>145</span>
+            </div>
+            <div class="count">
+              <span>Design</span>
+              <span>110</span>
+            </div>
+            <div class="count">
+              <span>Logic</span>
+              <span>95</span>
+            </div>
+          </div>
+          <!-- End search -->
+          <!-- Start latest upload -->
+          <div class="upload">
+            <h2>Latest Upload</h2>
+            <ul>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>my-file.pdf</span>
+                  <span>Elzero</span>
+                </div>
+                <div class="file-s">2.6mb</div>
+              </li>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>My-video-File.avi</span>
+                  <span>Admin</span>
+                </div>
+                <div class="file-s">4.9mb</div>
+              </li>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>My-psd-File.pdf</span>
+                  <span>Osama</span>
+                </div>
+                <div class="file-s">4.5mb</div>
+              </li>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>My-zip-file.pdf</span>
+                  <span>User</span>
+                </div>
+                <div class="file-s">8.9mb</div>
+              </li>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>My-DLL-file.pdf</span>
+                  <span>Admin</span>
+                </div>
+                <div class="file-s">4.9mb</div>
+              </li>
+              <li>
+                <img src="images/icon-pdf.svg" alt="" />
+                <div class="file-d">
+                  <span>My-Eps-File.pdf</span>
+                  <span>Designer</span>
+                </div>
+                <div class="file-s">2.6mb</div>
+              </li>
+            </ul>
+          </div>
+          <!-- End latest upload -->
+          <!-- Start latest project -->
+          <div class="project">
+            <h2>Latest Project</h2>
+            <ul>
+              <li class="done">Got The Project</li>
+              <li class="done">Got the enviroment work</li>
+              <li class="done">Started The Project</li>
+              <li class="done">The Project About work</li>
+              <li class="done">The Project About finish</li>
+              <li class="current">Test the Project</li>
+              <li>Finish The Project & Get Money</li>
+            </ul>
+            <img src="" alt="" />
+          </div>
+          <!-- End latest project -->
+          <!-- Start reminders -->
+          <div class="reminders">
+            <h2>Reminders</h2>
+            <ul>
+              <li class="blue">
+                <span></span>
+                <div>
+                  <p>Check My Tasks List</p>
+                  <span>28/9/2023 - 12:00am</span>
+                </div>
+              </li>
+              <li class="red">
+                <span></span>
+                <div>
+                  <p>Check My Tasks List</p>
+                  <span>28/9/2023 - 12:00am</span>
+                </div>
+              </li>
+              <li class="orange">
+                <span></span>
+                <div>
+                  <p>Check My Tasks List</p>
+                  <span>28/9/2023 - 12:00am</span>
+                </div>
+              </li>
+              <li class="green">
+                <span></span>
+                <div>
+                  <p>Check My Tasks List</p>
+                  <span>28/9/2023 - 12:00am</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- End reminders -->
+          <!-- Start latest post -->
+          <div class="post">
+            <h2>Latest Post</h2>
+            <div class="top">
+              <img src="images/avatar-01.webp" alt="" />
+              <div>
+                <span>Hussam Ahmad</span>
+                <span>About 3 days ago</span>
+              </div>
+            </div>
+            <div class="post-content">
+              A computer network is a set of computers sharing resources located
+              on or provided by network nodes.
+            </div>
+            <div class="reaction">
+              <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>1.8k</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-comments"></i>
+                <span>500</span>
+              </div>
+            </div>
+          </div>
+          <!-- End latest post -->
+          <!-- Start social media -->
+          <div class="social">
+            <h2>Social Media Stats</h2>
+            <div class="box twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <span>90K Followers</span>
+              <a href="#">Follow</a>
+            </div>
+            <div class="box facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <span>90K Followers</span>
+              <a>Like</a>
+            </div>
+            <div class="box youtube">
+              <i class="fa-brands fa-youtube"></i>
+              <span>1M sub</span>
+              <a>Subscripe</a>
+            </div>
+            <div class="box linked">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>90K Followers</span>
+              <a>Follow</a>
+            </div>
+          </div>
+          <!-- End social media -->
+        </div>
+        <!-- Start table project -->
+        <div class="projects">
+          <h2>Projects</h2>
+          <div class="resp-project">
+            <table>
+              <thead class="first">
+                <tr>
+                  <td>Name</td>
+                  <td>Finish Date</td>
+                  <td>Client</td>
+                  <td>Price</td>
+                  <td>Team</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ministry Wikipedia</td>
+                  <td>10 May 2023</td>
+                  <td>Ministry</td>
+                  <td>$5300</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                    <img src="images/avatar-03.webp" alt="" />
+                    <img src="images/avatar-04.webp" alt="" />
+                  </td>
+                  <td class="label one"><a href="">Pending</a></td>
+                </tr>
+                <tr>
+                  <td>Elzero shop</td>
+                  <td>10 oct 2023</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                    <img src="images/avatar-03.webp" alt="" />
+                  </td>
+                  <td class="label two"><a href="">in progress</a></td>
+                </tr>
+                <tr>
+                  <td>Elzero shop</td>
+                  <td>10 oct 2023</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                  </td> 
+                  <td class="label three"><a href="">Pending</a></td>
+                </tr>
+                <tr>
+                  <td>Elzero shop</td>
+                  <td>10 oct 2023</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                  </td>
+                  <td class="label four"><a href="">Pending</a></td>
+                </tr>
+                <tr>
+                  <td>Elzero shop</td>
+                  <td>10 oct 2023</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                  </td>
+                  <td class="label five"><a href="">Pending</a></td>
+                </tr>
+                <tr>
+                  <td>Elzero shop</td>
+                  <td>10 oct 2023</td>
+                  <td>Elzero Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/avatar-01.webp" alt="" />
+                    <img src="images/avatar-02.webp" alt="" />
+                    <img src="images/avatar-03.webp" alt="" />
+                    <img src="images/avatar-04.webp" alt="" />
+                  </td>
+                  <td class="label six"><a href="">Pending</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- End table project -->
+      </div>
+    </div>
+  </body>
+</html>
